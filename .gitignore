@@ -1,0 +1,5 @@
+/.pytest_cache
+/.vscode
+/venv
+/input_data
+/output
