@@ -54,7 +54,7 @@ def occurence_generate(values, base):
 
 def read_transactions(transaction_filepath, customers_op, products_op):
     """
-    Input -> Transactions filepath, customers dataframe, products dataframe
+    Input -> (Transactions filepath, customers dataframe, products dataframe)
     Read_transaction function helps to read all transaction.json files of a week.
     It then forms a combined weekly dataframe for computation of purchase count of each product.
     After each weekly computation, the output is capture in output folder with file naming convention - week_*.json

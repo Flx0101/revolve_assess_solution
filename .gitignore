@@ -3,3 +3,4 @@
 /venv
 /input_data
 /output
+__pycache__
